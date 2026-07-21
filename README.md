@@ -1,5 +1,10 @@
 # 🚀 Cluster Apache Spark & Repositório de Projetos
 
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 Este repositório centraliza a infraestrutura de um **cluster Apache Spark rodando em containers Docker**, servindo como ambiente para o desenvolvimento e execução de projetos práticos de Engenharia de Dados, Análise Preditiva e Séries Temporais.
 
 ---
@@ -16,6 +21,7 @@ O ambiente foi configurado para simular um ecossistema de processamento distribu
 
 ## 📂 Estrutura do Repositório
 
+```text
 projetos-cluster-spark/
 ├── config/                  # Configurações internas do ambiente Spark
 ├── datasets/                # Conjuntos de dados dos projetos
@@ -29,7 +35,7 @@ projetos-cluster-spark/
 ├── .gitignore               # Regras de exclusão do Git
 ├── docker-compose.yml       # Orquestração dos containers Docker do Spark
 └── README.md                # Documentação do repositório
-
+```
 ---
 
 ## 📊 Projetos Incluídos
@@ -56,4 +62,12 @@ projetos-cluster-spark/
    `docker ps`
 
 3. **Executar Scripts no Cluster:**
-   `docker exec -it <NOME_DO_CONTAINER_MASTER> spark-submit /projetos/projeto_trafego_internet/deploy.py`
+   `docker exec -it spark-master spark-submit /projetos/projeto_trafego_internet/deploy.py`
+
+## 💻 Desenvolvedor
+
+   Douglas Vittori - Cientista de Dados em Formação
+
+   🔗 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/douglasvittori/)
+
+   🚀 Conheça meu [Portfólio de Dados](https://douglasvittori-portfolio.lovable.app/)
